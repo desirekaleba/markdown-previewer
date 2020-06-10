@@ -23,3 +23,15 @@ ul, ol {
     font-weight: 500;
     color: rgb(98, 112, 16);
   }
+  img {
+      width: 100%;
+  }
+  @media screen and (max-width: 960px){
+      .app-wrapper {
+          display: block;
+          width: 100%;
+          margin: auto;
+          
+      }
+  }
+
