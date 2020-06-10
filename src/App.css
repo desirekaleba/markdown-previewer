@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+.app-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+  code {
+    background: rgb(255, 255, 255);
+    padding: 1px 4px 2px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(98, 112, 16);
+  }
