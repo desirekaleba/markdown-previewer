@@ -19,3 +19,17 @@ textarea {
     color: rgba(194, 88, 2, 0.938);
     background-color: rgb(37, 39, 38);
 }
+
+ @media screen and (max-width: 960px) {
+      .editor {
+          display: block;
+          width: 100%;
+          height: 60vh;
+          position: relative;
+          border: none;
+      }
+      textarea {
+          font-size: 1.5rem;
+          
+      }
+  }
