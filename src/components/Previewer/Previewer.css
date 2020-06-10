@@ -1,0 +1,11 @@
+.previewer {
+    width: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#preview {
+    padding: 0 12px;
+}
